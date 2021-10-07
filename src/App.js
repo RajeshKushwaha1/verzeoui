@@ -13,15 +13,22 @@ const Wrapper = styled.div`
   background-color: rgb(234, 234, 234);
 `;
 
+
+
+
 const App = () => {
+  const data = [0,1,2,3]
   return (
     <>
       <Navbar />
       <Wrapper>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {data.map((i,id)=>{
+          return(
+            <div key={id}>
+               <Card/> 
+            </div>
+          )
+        })}
       </Wrapper>
     </>
   );

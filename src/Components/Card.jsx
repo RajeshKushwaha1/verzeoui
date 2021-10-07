@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Wrapper = styled.div;
+const Wrapper = styled.div``;
 
 const Cards = styled.div`
   margin-left: 3rem;
@@ -24,12 +24,12 @@ const Paragraf = styled.div`
 const Card = () => {
   return (
     <>
-     <wrapper>
+     <Wrapper>
         <Cards></Cards>
         <Paragraf>
            <p>Untitled Form</p>
         </Paragraf>
-     </wrapper>
+     </Wrapper>
     </>
   );
 };
