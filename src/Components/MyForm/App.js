@@ -1,11 +1,11 @@
 import React from "react";
-import "./index.css";
-import Card from "./Components/Card";
-import Navbar from "./Components/Navbar";
+import Card from "./Card";
+import Navbar from "./Navbar";
 import styled from "styled-components";
 
 
 const Wrapper = styled.div`
+  padding: 3rem 0rem 0rem 1.8rem;
   display: flex;
   flex-direction: row;
   width: 100%;

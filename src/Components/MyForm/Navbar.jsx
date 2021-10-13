@@ -15,6 +15,8 @@ const Heading = styled.h1`
   margin-top: 3rem;
   font-size: 23px;
   color: #ffffff;
+  font: normal normal 600 23px/34px Poppins;
+  letter-spacing: 0px;
 `;
 
 const Navbar = () => {

@@ -4,40 +4,45 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
-  align-items: center;
   width: 18rem;
   height: 4.5rem;
   box-shadow: 0px 1px 4px #15223214;
   border-radius: 6px;
   opacity: 1;
+  margin-left: 32.3px;
+  
 `;
 
-const Heading = styled.h1`
-  font-weight:bold;
-  letter-spacing: 0.1px;
-  color: #7E84A3;
-  font: normal normal 600 16px/22px Open Sans;
+const Heading = styled.h6`
+ margin: 26px 25.15px 111.34px 14.23px;
+ width: 160px;
+ font-size: 16px;
+ font-weight: 600;
+ letter-spacing: 0.1px;
+ color: #7E84A3;
+
 `;
 
 const Number = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width:  4rem;
   height: 3rem;
-  border-radius: 1.5rem;
+  margin: 11px 14.15px 20.88px 0px;
+  border-radius: 24px;
+  font-weight: bold;
   background: #EAF4FE 0% 0% no-repeat padding-box;
 `;
 
-const TopsectionCard = ({ data }) => {
+const Count = styled.p`
+   margin: 12.91px 14.09px 17.47px 13.53px;
+`;
+const TopsectionCard = ({title,number}) => {
 
   return (
     <>
       <Wrapper>
-        <Heading>{data}</Heading>
+        <Heading>{title}</Heading>
         <Number>
-          <h6>8765</h6>
+          <Count>{number}</Count>
         </Number>
       </Wrapper>
 

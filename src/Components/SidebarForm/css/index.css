@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+.addContact{
+    margin: 1rem;
+    width: 7.9rem;
+    height: 2.3rem;
+    background-color: #F3F8FF;
+    font-family: normal normal medium 13px/20px Poppins;
+    letter-spacing: 0px;
+    color: #111111;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    
+  }
+   
+  /* .addContact:hover ~ .MainDiv{
+    margin-right: 0rem;
+  } */
+  
+  .MainDiv {
+    /* float: right; */
+    width: 21rem;
+    height: 48rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 8px #00000029;
+    border-radius: 8px 0px 0px 8px;
+    /* margin-right: -21rem; */
+    transition:  .3s  all ease ;
+    /* overflow-x:  hidden; */
+    /* position: fixed; */
+    position : absolute;
+    top : 0px
+    
+  }
+  
+  .HeadingCrossMainDiv {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .HeadingDiv {
+    padding: 1.3rem;
+    font-size: 1.37rem;
+    margin-left: 0.2rem;
+    font-family: normal normal 600 22px/27px Montserrat;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #0C2342;
+  }
+  
+  .crossDiv {
+    padding: 1.4rem;
+    margin-left: 7rem;
+  }
+  
+  .heading {
+    margin-top: 0.8rem;
+    margin-left: 1.2rem;
+    font-size: 10px;
+    font-family: normal normal medium 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #0C2342;
+  }
+  
+  .input {
+    margin-left: 1.2rem;
+    width: 18.4rem;
+    height: 2.18rem;
+    border: none;
+    border-radius: 4px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    font-family: normal normal medium 10px/13px Roboto;
+    letter-spacing: 0px;
+    color: #B7B7B7;
+    font-size: 0.62rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    
+  }
+  input:focus{
+    border: 0.5px solid #518EE0;
+    background-color:#F0F6FE;
+    border-radius:4px;
+    color:black;
+    font-size:1rem;
+    outline: none;
+  }
+  
+  .button {
+    width: 18.4rem;
+    height: 2.18rem;
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+    border-radius: 4px;
+    background: #0C2342 0% 0% no-repeat padding-box;
+  }
+  
+  .buttonHeading {
+    margin-top: 0.3rem;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    letter-spacing: 0px;
+    font-family: normal normal normal 18px/24px Roboto;
+  }
+  
+  .group {
+    margin-left: -2rem;
+  }
+
+  .container {
+    position: absolute;
+    display: inline-block;
+  }
+  .dropdown {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: -19.1rem;
+    width: 18.4rem;
+    z-index: 3;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    padding: 8px 12px;
+  }
+  
+  li:hover {
+    background-color: rgba(0, 0, 0, 0.14);
+    cursor: pointer;
+  }
+  
