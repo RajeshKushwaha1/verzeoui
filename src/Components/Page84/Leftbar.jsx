@@ -256,7 +256,7 @@ const Leftbar = () => {
           style={{
             background: `${activeBtn === "first_btn" ? "#17498C" : ""}`,
             color: `${activeBtn === "first_btn" ? "white" : ""}`,
-            transition: " .7s  all ease",
+            transition: " .1s  all ease",
           }}
         >
           Primary
@@ -266,7 +266,7 @@ const Leftbar = () => {
           style={{
             background: `${activeBtn === "second_btn" ? "#17498C" : ""}`,
             color: `${activeBtn === "first_btn" ? "" : "white"}`,
-            transition: " .7s  all ease",
+            transition: " .1s  all ease",
           }}
         >
           Secondary
